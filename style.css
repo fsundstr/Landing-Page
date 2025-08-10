@@ -4,6 +4,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     font-family: 'Roboto', sans-serif;
+    flex: 1 1 auto;
 }
 
 
@@ -22,16 +23,19 @@ body{
     padding: 8px 0;
 }
 .links{
-    margin-right: 150px;
+    margin-right: 285px;
     padding: 8px 0;
+    font-size: 18px;
+    color: #F9FAF8;
+    
 }
 
 a{
     margin-left: 7px;
+    
 }
 .top .left{
     margin-left: 150px;
-    /*padding: 0 auto;*/
     width: 600px;
 }
 .top .left button{
@@ -39,14 +43,15 @@ a{
 }
 
 .top .right{
-    /*padding: 0 auto;*/
     width: 600px;
+
 
 }
 .placeholderIMG{
     width: 500px;
     height: 200px;
     background-color: gray;
+
     
 
     text-align: center;
@@ -68,6 +73,7 @@ a{
     margin: -10px;
     padding: 10px;
     box-sizing: border-box;
+    flex-shrink: 1;
 }
 
 h1{
@@ -76,7 +82,7 @@ h1{
     font-weight: 900;
 }
 
-.links, .heroSecondary{
+.links, .heroSecondary, .footer{
     font-size: 18px;
     color:#E5E7EB
 }
@@ -108,6 +114,36 @@ button{
     height: 400px;
 }
 
+.midBoxContainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.midBoxContainer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.midBoxContainer div div{
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-style: solid;
+    
+    width: 150px;
+    height: 150px;
+
+}
+img{
+    border-radius: 8px;
+}
+.midBoxContainer div p{
+    font-size: 18px;
+    color:#5e6268;
+
+}
+
 .upperMiddle p{
     font-size: 36px;
     color: #1F2937;
@@ -118,7 +154,6 @@ button{
     flex-grow: 2;
     height: 400px;
     background-color: #E5E7EB;
-    /*text-align: center;*/
     margin: -10px;
     display: flex;
 }
@@ -142,5 +177,59 @@ button{
 
 .bottom{
     flex-grow: 2;
-    height: 200px;
+    height: 350px;
+    margin: -10px;
+    display: flex;
+
+    
 }
+
+.bottom div{
+    margin: auto;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    padding: 15px;
+    width: 1000px;
+    
+
+}
+
+.bottom div .bottomLeft{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+    
+}
+
+
+.bottom div .bottomLeft h2{
+    
+
+}
+
+.bottom div .bottomLeft p{
+    margin-top: -10px;
+    
+}
+.bottom div .bottomRight{
+    padding: 15px 30px;
+    justify-self: flex-end;
+    display: flex;
+}
+.bottom div .bottomRight button{
+    border-color: white;
+    margin-left: auto;
+    margin-right: 40px;
+    /*border-style: solid;*/
+    
+}
+
+
+.footer{
+    text-align: center;
+    
+}
+
+
