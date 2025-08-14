@@ -10,3 +10,8 @@ All images used in this project are from [Pixabay](https://pixabay.com), which p
 - **Raccoon** – Creator unknown
 - **Fox** – [AlainAudet](https://pixabay.com/users/alainaudet-631535/)
 - **Buzzard** – [manfredrichter](https://pixabay.com/users/manfredrichter-4055600/)
+
+## Live Demo
+
+Check out the live version of this project here:  
+[**Landing Page**](https://fsundstr.github.io/Landing-Page/)
